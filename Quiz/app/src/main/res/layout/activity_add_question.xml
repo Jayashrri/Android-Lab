@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddQuestionActivity">
+
+    <EditText
+        android:id="@+id/addQuestion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Question"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/addOptions"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/addOptionText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Option"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addOptionButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ADD OPTION" />
+
+    <Button
+        android:id="@+id/addQuestionButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="ADD QUESTION" />
+</LinearLayout>
