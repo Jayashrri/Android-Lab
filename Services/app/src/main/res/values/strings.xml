@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Services by Google</string>
+    <string name="welcome">Services</string>
+    <string name="name">Enter your name</string>
+    <string name="message">Enter a Message!</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="roll">Roll no</string>
+    <string name="roll_hint">Enter Roll No</string>
+    <string name="send">Set Alarm</string>
+    <string name="email">Use Gmail</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="music">Play Spotify</string>
+    <string name="path">/Music/Money.mp3</string>
+</resources>
